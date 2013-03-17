@@ -1,0 +1,6 @@
+*.md
+Cakefile
+Rakefile
+doc/
+src/
+test/

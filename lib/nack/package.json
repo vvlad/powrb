@@ -1,0 +1,53 @@
+{
+  "name": "nack",
+  "description": "Node powered Rack server",
+  "version": "0.13.2",
+  "author": {
+    "name": "Joshua Peek"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/josh/nack/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/josh/nack.git"
+  },
+  "directories": {
+    "man": "./man",
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "bin": {
+    "nack": "./bin/nack"
+  },
+  "dependencies": {
+    "async": ">= 0.1.8",
+    "connect": ">= 1.0.0",
+    "netstring": ">= 0.2.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">= 1.0.0",
+    "nodeunit": ">= 0.5.0"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "_npmUser": {
+    "name": "sstephenson",
+    "email": "sstephenson@gmail.com"
+  },
+  "_id": "nack@0.13.2",
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.21",
+  "_nodeVersion": "v0.6.18",
+  "_defaultsLoaded": true,
+  "man": [
+    "man/nack.1",
+    "man/protocol.7"
+  ],
+  "_from": "nack@~> 0.13"
+}
