@@ -1,0 +1,4 @@
+powrb
+=====
+
+ruby pow implementation
